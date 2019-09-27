@@ -3,7 +3,7 @@ public class App {
     public static void main(String[] args) {
 
         //FilePartReader filePartReader = new FilePartReader();
-        FilePartReader filePartReader = new FilePartReader("src/main/resources/test.txt",3,3);
+        FilePartReader filePartReader = new FilePartReader("src/main/resources/test.txt",1,1);
 
         FileWordAnalyzer fileWordAnalyzer = new FileWordAnalyzer(filePartReader);
 

@@ -5,11 +5,6 @@ import java.util.List;
 public class FileWordAnalyzer {
     private FilePartReader filePartReader;
 
-
-    public FileWordAnalyzer() {
-        this.filePartReader = new FilePartReader();
-    }
-
     public FileWordAnalyzer(FilePartReader filePartReader) {
         this.filePartReader = filePartReader;
     }
